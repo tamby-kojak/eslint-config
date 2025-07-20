@@ -1,0 +1,50 @@
+{
+  /*
+   * ESLint Extension Specific Settings
+  */
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.useFlatConfig": true,  
+  "eslint.validate": [
+    "json",
+    "css",
+    "javascript",
+    "jsonc",
+    "markdown",
+    "typescript",
+  ],
+
+  /*
+   * VS Code Specific Settings
+  */
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+
+  // We do not want format on save because we have files with intentional errors
+  // in them to serve as examples for the linter.
+  "editor.formatOnSave": false,
+
+  /*
+   * Language Specific Settings
+  */
+
+  /*
+   * CSS Specific Settings
+  */
+  "css.validate": false,
+
+  /*
+   * JavaScript Specific Settings
+  */
+  "javascript.implicitProjectConfig.checkJs": false,
+
+  /*
+   * JSON Specific Settings
+  */
+  "json.validate.enable": false,
+
+  /*
+   * TypeScript Specific Settings
+  */
+  "typescript.tsdk": "node_modules/typescript/lib",
+}
