@@ -1,16 +1,51 @@
 {
-  "name": "@tambykojak/eslint-config",
+  "name": "@tamby-kojak/eslint-config",
   "type": "module",
   "version": "1.0.0",
+  "private": false,
   "description": "Custom ESLint config that I use for my projects.",
-  "main": "index.ts",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./javascript": "./src/configs/javascript-config.js",
+    "./typescript": "./src/configs/typescript-config.js",
+    "./json": "./src/configs/json-config.js",
+    "./jsonc": "./src/configs/jsonc-config.js",
+    "./markdown": "./src/configs/markdown-config.js",
+    "./css": "./src/configs/css-config.js",
+    "./node": "./src/configs/node-config.js"
+  },
+  "files": [
+    "src/**/*.js",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "c8 --reporter=html --reporter=text node --test"
   },
-  "author": "",
-  "keywords": [],
+  "author": {
+    "name": "Tamby Kojak",
+    "email": "tambykojak@users.noreply.github.com",
+    "url": "https://github.com/tambykojak"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript",
+    "javascript",
+    "linting",
+    "code-quality"
+  ],
   "license": "ISC",
   "packageManager": "pnpm@10.6.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tambykojak/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tambykojak/eslint-config/issues"
+  },
+  "homepage": "https://github.com/tambykojak/eslint-config#readme",
   "devDependencies": {
     "@eslint/css": "^0.10.0",
     "@eslint/js": "^9.31.0",

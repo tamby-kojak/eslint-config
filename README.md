@@ -27,6 +27,12 @@ Or with pnpm:
 pnpm add -D @tambykojak/eslint-config
 ```
 
+Or with yarn:
+
+```bash
+yarn add -D @tambykojak/eslint-config
+```
+
 ## Usage
 
 ### Basic Setup
@@ -35,8 +41,8 @@ Create an `eslint.config.js` file in your project root:
 
 ```javascript
 import { defineConfig } from 'eslint/config'
-import javascriptConfig from '@tambykojak/eslint-config/src/configs/javascript-config.js'
-import typescriptConfig from '@tambykojak/eslint-config/src/configs/typescript-config.js'
+import javascriptConfig from '@tambykojak/eslint-config/javascript'
+import typescriptConfig from '@tambykojak/eslint-config/typescript'
 
 export default defineConfig([
   javascriptConfig,
@@ -44,21 +50,32 @@ export default defineConfig([
 ])
 ```
 
+Or use the default export for all configs:
+
+```javascript
+import { defineConfig } from 'eslint/config'
+import eslintConfig from '@tambykojak/eslint-config'
+
+export default defineConfig(eslintConfig)
+```
+
 ### Advanced Setup with All Configs
 
 ```javascript
 import { defineConfig } from 'eslint/config'
-import javascriptConfig from '@tambykojak/eslint-config/src/configs/javascript-config.js'
-import typescriptConfig from '@tambykojak/eslint-config/src/configs/typescript-config.js'
-import jsonConfig from '@tambykojak/eslint-config/src/configs/json-config.js'
-import markdownConfig from '@tambykojak/eslint-config/src/configs/markdown-config.js'
-import cssConfig from '@tambykojak/eslint-config/src/configs/css-config.js'
-import nodeConfig from '@tambykojak/eslint-config/src/configs/node-config.js'
+import javascriptConfig from '@tambykojak/eslint-config/javascript'
+import typescriptConfig from '@tambykojak/eslint-config/typescript'
+import jsonConfig from '@tambykojak/eslint-config/json'
+import jsoncConfig from '@tambykojak/eslint-config/jsonc'
+import markdownConfig from '@tambykojak/eslint-config/markdown'
+import cssConfig from '@tambykojak/eslint-config/css'
+import nodeConfig from '@tambykojak/eslint-config/node'
 
 export default defineConfig([
   javascriptConfig,
   typescriptConfig,
   jsonConfig,
+  jsoncConfig,
   markdownConfig,
   cssConfig,
   nodeConfig
@@ -71,8 +88,8 @@ You can extend or override specific rules:
 
 ```javascript
 import { defineConfig } from 'eslint/config'
-import javascriptConfig from '@tambykojak/eslint-config/src/configs/javascript-config.js'
-import typescriptConfig from '@tambykojak/eslint-config/src/configs/typescript-config.js'
+import javascriptConfig from '@tambykojak/eslint-config/javascript'
+import typescriptConfig from '@tambykojak/eslint-config/typescript'
 
 export default defineConfig([
   javascriptConfig,

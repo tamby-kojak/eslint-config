@@ -2,6 +2,8 @@ import css from "@eslint/css";
 
 import { mergeConfigs } from '../utils/merge-configs.js'
 
+const foo = 1;
+
 export const allRules = {
   "css/no-duplicate-imports": "error",
   "css/no-empty-blocks": "error",

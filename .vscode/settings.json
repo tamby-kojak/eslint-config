@@ -37,6 +37,7 @@
    * JavaScript Specific Settings
   */
   "javascript.implicitProjectConfig.checkJs": false,
+  "javascript.validate.enable": false,
 
   /*
    * JSON Specific Settings
