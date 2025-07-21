@@ -40,12 +40,12 @@
   "packageManager": "pnpm@10.6.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tambykojak/eslint-config.git"
+    "url": "https://github.com/tamby-kojak/eslint-config"
   },
   "bugs": {
-    "url": "https://github.com/tambykojak/eslint-config/issues"
+    "url": "https://github.com/tamby-kojak/eslint-config/issues"
   },
-  "homepage": "https://github.com/tambykojak/eslint-config#readme",
+  "homepage": "https://github.com/tamby-kojak/eslint-config#readme",
   "devDependencies": {
     "@eslint/css": "^0.10.0",
     "@eslint/js": "^9.31.0",
