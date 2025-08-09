@@ -1,4 +1,4 @@
-import { mergeConfigs } from '../utils/merge-configs.js'
+import { mergeConfigs } from '../../src/utils/merge-configs.js'
 
 export const allRules = {
   'accessor-pairs': 'error',

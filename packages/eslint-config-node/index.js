@@ -1,6 +1,6 @@
 import globals from 'globals'
 
-import { mergeConfigs } from '../utils/merge-configs.js'
+import { mergeConfigs } from '../../src/utils/merge-configs.js'
 
 const config = {
   languageOptions: {
