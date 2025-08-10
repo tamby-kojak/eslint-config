@@ -1,0 +1,7 @@
+{
+  "extends": "@tamby-kojak/tsconfig/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "."
+  }
+}

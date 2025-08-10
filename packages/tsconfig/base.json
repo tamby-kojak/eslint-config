@@ -1,0 +1,170 @@
+{
+  // Top Level
+  // "files": [],
+  // "extends": undefined
+  // "include": ["./**/*.ts"],
+  // "exclude": [],
+  // "references": []
+
+  "compilerOptions": {
+    // Type Checking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    
+    // Type Checking - 'strict' bundle
+    "strict": false,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictBuiltinIteratorReturn": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    // Modules
+    // "allowArbitraryExtensions": false
+    // "allowImportingTsExtensions": false
+    // "allowUmdGlobalAccess": false
+    // "baseUrl": undefined
+    // "customConditions": []
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",    
+    // "moduleSuffixes": [".", ".d", ".ts", ".tsx", ".js", ".jsx"]
+    // "noResolve": false
+    // "noUncheckedSideEffectImports": false
+    // "paths": {}
+    // "resolveJsonModule": false
+    // "resolvePackageJsonExports": true
+    // "resolvePackageJsonImports": true
+    // "rewriteRelativeImportExtensions": false
+    // "rootDir": ".",
+    // "rootDirs": []
+    // "typeRoots": undefined
+    // "types": undefined
+
+    // Emit
+    "declaration": true,
+    // "declarationDir": undefined
+    "declarationMap": false,
+    // "downlevelIteration": false
+    // "emitBOM": false
+    // "emitDeclarationOnly": false
+    // "importHelpers": false
+    // "inlineSourceMap": true,
+    // "inlineSources": false
+    // "mapRoot": undefined
+    // "newLine": "lf"
+    // "noEmit": false
+    // "noEmitHelpers": false
+    // "noEmitOnError": false
+    // "outDir": "dist",
+    // "outFile": undefined
+    // "preserveConstEnums": false
+    // "removeComments": false
+    // "sourceMap": true,
+    // "sourceRoot": undefined
+    // "stripInternal": false
+
+    // JavaScript Support
+    // "allowJs": false
+    "checkJs": true,
+    // "maxNodeModuleJsDepth": 0
+
+    // Editor Support
+    // "disableSizeLimit": false
+    // "plugins": []
+
+    // Interop Constraints
+    // "allowSyntheticDefaultImports": false
+    "erasableSyntaxOnly": true,
+    // "esModuleInterop": true,
+    // "forceConsistentCasingInFileNames": true
+    // "isolatedDeclarations": false
+    // "isolatedModules": false
+    // "preserveSymlinks": false
+    // "verbatimModuleSyntax": false
+
+    // Backwards Compatibility
+    // "charset": "utf8"
+    // "importsNotUsedAsValues": "remove"
+    // "keyofStringsOnly": false
+    // "noImplicitUseStrict": false
+    // "noStrictGenericChecks": false
+    // "out": undefined
+    // "preserveValueImports": false
+    // "suppressExcessPropertyErrors": false
+    // "suppressImplicitAnyIndexErrors": false
+
+    // Language and Environment
+    // "emitDecoratorMetadata": false
+    // "experimentalDecorators": false
+    // "jsx": "preserve"
+    // "jsxFactory": "React.createElement"
+    // "jsxFragmentFactory": "React.Fragment"
+    // "jsxImportSource": "react"
+    // "lib": undefined
+    // "libReplacement": undefined
+    "moduleDetection": "auto",
+    "noLib": false,
+    "reactNamespace": "React",
+    "target": "ESNext",
+    // "useDefineForClassFields": false
+
+    // Compiler Diagnostics
+    "diagnostics": false,
+    "explainFiles": false,
+    "extendedDiagnostics": false,
+    "generateCpuProfile": null,
+    "generateTrace": null,
+    "listEmittedFiles": false,
+    "listFiles": false,
+    "noCheck": false,
+    "traceResolution": false,
+
+    // Projects
+    // "composite": false
+    // "disableReferencedProjectLoad": false
+    // "disableSolutionSearching": false
+    // "disableSourceOfProjectReferenceRedirect": false
+    // "incremental": false
+    // "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
+
+    // Output Formatting
+    // "noErrorTruncation": false
+    // "preserveWatchOutput": false
+    // "pretty": false,
+
+    // Completeness
+    // "skipLibCheck": false
+    // "skipDefaultLibCheck": false
+  },
+
+  // Watch Options
+  "watchOptions": {
+    // "assumeChangesOnlyAffectDirectDependencies": false
+    // "watchFile": "useFsEvents"
+    // "watchDirectory": "useFsEvents"
+    // "fallbackPolling": "fixedPollingInterval"
+    // "synchronousWatchDirectory": false
+    // "excludeDirectories": []
+    // "excludeFiles": []
+  },
+
+  // Type Acquisition
+  "typeAcquisition": {
+    // "enable": true
+    // "include": []
+    // "exclude": []
+    // "disableFilenameBasedTypeAcquisition": false
+  }
+}

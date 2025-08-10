@@ -19,10 +19,7 @@
    * VS Code Specific Settings
   */
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-
-  // We do not want format on save because we have files with intentional errors
-  // in them to serve as examples for the linter.
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
 
   /*
    * Language Specific Settings
@@ -37,6 +34,7 @@
    * JavaScript Specific Settings
   */
   "javascript.implicitProjectConfig.checkJs": false,
+  "javascript.validate.enable": false,
 
   /*
    * JSON Specific Settings
@@ -46,5 +44,5 @@
   /*
    * TypeScript Specific Settings
   */
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

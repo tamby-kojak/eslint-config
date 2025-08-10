@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tamby-kojak/eslint-config-node": "workspace:*",
+    "@tamby-kojak/eslint-config-javascript": "workspace:*",
+    "@tamby-kojak/eslint-config-stylistic": "workspace:*",
+    "@tamby-kojak/eslint-config-typescript": "workspace:*",
+    "@tamby-kojak/tsconfig": "workspace:*",
+    "eslint": "^9.33.0",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.14.0"
+}

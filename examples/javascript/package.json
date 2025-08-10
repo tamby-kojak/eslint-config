@@ -1,0 +1,12 @@
+{
+  "name": "javascript-example",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@tamby-kojak/eslint-config-javascript": "workspace:*",
+    "@tamby-kojak/eslint-config-node": "workspace:*",
+    "@tamby-kojak/eslint-config-stylistic": "workspace:*",
+    "eslint": "^9.0.0"
+  },
+  "packageManager": "pnpm@10.14.0"
+}

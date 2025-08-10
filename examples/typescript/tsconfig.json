@@ -1,0 +1,8 @@
+{
+  "extends": "@tamby-kojak/tsconfig/base.json",
+  "include": ["**/*.ts"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "."
+  },
+}

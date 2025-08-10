@@ -1,0 +1,24 @@
+{
+  "name": "@tamby-kojak/eslint-config-typescript",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "dependencies": {
+    "@tamby-kojak/eslint-config-shared": "workspace:*",
+    "@tamby-kojak/eslint-config-javascript": "workspace:*",
+    "typescript-eslint": "^8.39.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "devDependencies": {
+    "@tamby-kojak/tsconfig": "workspace:*",
+    "@types/node": "^24.2.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0"
+  },
+  "packageManager": "pnpm@10.14.0"
+}

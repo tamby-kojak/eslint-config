@@ -1,0 +1,12 @@
+{
+  "name": "@tamby-kojak/tsconfig",
+  "type": "module",
+  "version": "1.0.3",
+  "files": [
+    "base.json"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.14.0"
+}

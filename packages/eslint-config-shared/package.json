@@ -1,0 +1,14 @@
+{
+  "name": "@tamby-kojak/eslint-config-shared",
+  "type": "module",
+  "version": "1.0.13",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@tamby-kojak/tsconfig": "workspace:*",
+    "@types/node": "^24.2.1",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.14.0"
+}
