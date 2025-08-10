@@ -1,0 +1,25 @@
+{
+  "name": "@tamby-kojak/eslint-config-markdown",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@eslint/markdown": "^6.3.0",
+    "@tamby-kojak/eslint-config-shared": "workspace:*",
+    "@tamby-kojak/eslint-config-stylistic": "workspace:*"
+  },
+  "devDependencies": {
+    "@tamby-kojak/tsconfig": "workspace:*",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  }
+}
